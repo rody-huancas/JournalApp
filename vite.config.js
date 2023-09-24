@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       "src": path.resolve(__dirname, "src/"),
       "auth": path.resolve(__dirname, "src/auth"),
+      "firebaseConfig": path.resolve(__dirname, "src/firebase"),
       "hooks": path.resolve(__dirname, "src/hooks"),
       "journal": path.resolve(__dirname, "src/journal"),
       "router": path.resolve(__dirname, "src/router"),
