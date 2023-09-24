@@ -10,6 +10,7 @@ export default defineConfig({
       "auth": path.resolve(__dirname, "src/auth"),
       "journal": path.resolve(__dirname, "src/journal"),
       "router": path.resolve(__dirname, "src/router"),
+      "store": path.resolve(__dirname, "src/store"),
       "theme": path.resolve(__dirname, "src/theme"),
     },
   },
