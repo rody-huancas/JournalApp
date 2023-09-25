@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link as RouterLink } from "react-router-dom";
 import { Button, Grid, Link, TextField, Typography } from "@mui/material";
@@ -5,7 +6,6 @@ import { Google } from "@mui/icons-material";
 import { useForm } from "hooks";
 import { checkingAuthentication, startGoogleSignIn } from "store/auth";
 import { AuthLayout } from "auth/layout/AuthLayout";
-import { useMemo } from "react";
 
 export const LoginPage = () => {
   const { status } = useSelector((state) => state.auth);
